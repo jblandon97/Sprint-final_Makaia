@@ -11,12 +11,12 @@ import { getFirestore } from "firebase/firestore";
 
 //cambiar
 const firebaseConfig = {
-  apiKey: "AIzaSyCCe4AOkeDn59yq9nz5V6gcsJKgYaW_djo",
-  authDomain: "sprint-food-delivery.firebaseapp.com",
-  projectId: "sprint-food-delivery",
-  storageBucket: "sprint-food-delivery.appspot.com",
-  messagingSenderId: "284184934604",
-  appId: "1:284184934604:web:6132345639c39e8bc9aa69"
+  apiKey: "AIzaSyCFJMp2RjRw-AB3N83hgvb_-q4KnLU3sPE",
+  authDomain: "food-delivery-app-34de5.firebaseapp.com",
+  projectId: "food-delivery-app-34de5",
+  storageBucket: "food-delivery-app-34de5.appspot.com",
+  messagingSenderId: "55142300096",
+  appId: "1:55142300096:web:ca723393fba02f1d373025"
 };
 
 // Initialize Firebase
