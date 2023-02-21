@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { useNavigate } from 'react-router'
 import { auth, users } from '../services'
 import { auth as authCont } from '../context'
-import logo from "../logos/logo.png"
+import logo from "../images/logo.png"
 import '../styles/Login.sass'
 
 

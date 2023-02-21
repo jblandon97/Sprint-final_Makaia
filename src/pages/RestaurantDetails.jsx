@@ -2,10 +2,9 @@ import React, { useContext, useEffect } from 'react'
 import { useParams } from 'react-router'
 import { Link } from 'react-router-dom'
 import { restaurantsContext, dishesContext } from '../context'
-import RestDetails from '../components/RestDetails'
-import DishesList from '../components/DishesList'
-import "../styles/RestaurantDetails.sass"
-import logoLoading from "../logos/Splash screen.png"
+import RestDetails from '../components/RestaurantsDetails'
+import DishesList from '../components/PlatesList'
+import logoLoading from "../images/Splash screen.png"
 
 
 

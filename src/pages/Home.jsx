@@ -52,17 +52,14 @@ const Home = () => {
               </div>
             </div>
             <div className="promotion">
-              <img src="https://res.cloudinary.com/dif29zscp/image/upload/v1676235799/food-app-delivery-s4/Promotions/Promo_1_hwfa6z.png" alt="" />
+              <img src="https://image.similarpng.com/very-thumbnail/2021/09/Good-food-logo-design-on-transparent-background-PNG.png" className='w-25' alt="" />
             </div>
 
-            <p className=''>
-              Restaurants and cafes
-            </p>
             <div className="filter-btns d-flex mb-4 w-100">
               <button onClick={() => filterButtons("all")} className="filter-btn btn m-1">Todos</button>
               <button onClick={() => filterButtons("burger")} className="filter-btn btn m-1">Hamburguesa</button>
               <button onClick={() => filterButtons("pizza")} className="filter-btn btn m-1">Pizza</button>
-              <button onClick={() => filterButtons("salad")} className="filter-btn btn m-1">Ensalada</button>
+              <button onClick={() => filterButtons("soap")} className="filter-btn btn m-1">Sopas</button>
               <button onClick={() => filterButtons("pasta")} className="filter-btn btn m-1">Pasta</button>
             </div>
 

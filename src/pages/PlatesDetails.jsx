@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { dishesContext } from '../context'
-import logoLoading from "../logos/Splash screen.png"
-import DishDetail from "../components/DishDetail"
+import logoLoading from "../images/Splash screen.png"
+import DishDetail from "../components/PlateDetail"
 
 
 

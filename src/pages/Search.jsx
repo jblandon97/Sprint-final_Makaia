@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import DishesSearch from '../components/DishesSearch'
+import DishesSearch from '../components/PlatesSearch'
 import { dishesContext, restaurantsContext } from '../context'
 import '../styles/Search.sass'
 
@@ -70,7 +70,7 @@ const Search = () => {
         <input
           className='form-control rounded-3'
           type='text'
-          placeholder='Search for Burger, Pizza, Pasta or Salad...'
+          placeholder='Search for Burger, Pizza, Pasta or Soap...'
           onChange={event => handleSubmit(event)}
         />
       </div>

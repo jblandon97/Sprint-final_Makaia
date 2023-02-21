@@ -8,7 +8,7 @@ import './styles/App.sass'
 const App = () => {
 
   useEffect(() => {
-    document.title = "Food Delivery App Sprint Jared"
+    document.title = "pop-up"
   }, []);
 
   return (
