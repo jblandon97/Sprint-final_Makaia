@@ -10,7 +10,7 @@ const RestDetails = ({ currentRest }) => {
                         <h5 className='info-title mb-0'>{currentRest.name}</h5>
                         <p className='info-description mb-0 fw-lighter'>{currentRest.description}</p>
                         <p className='info-stars mb-0'>{currentRest.stars}</p>
-                        <p className='info-schedule mb-0 bg-body-secondary rounded-2 px-2'>Work time: {currentRest.schedule}</p>
+                        <p className='info-schedule mb-0 bg-body-secondary rounded-2 px-2'>Horario: {currentRest.schedule}</p>
                     </div>
                 </div>
             </div>

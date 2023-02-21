@@ -37,7 +37,7 @@ export const getDishes = async (restaurantId) => {
 
 export const getDishDetail = async (_restaurantId, _dishId) => {
 
-  const dbCollection = collection(db, `restaurants/${_restaurantId}/dishes/`)
+  const dbCollection = collection(db, `foodList/${_restaurantId}/plates/`)
 
   const dishDetail = await getDoc(doc(dbCollection, _dishId))
   const dish = dishDetail.data()
@@ -48,7 +48,7 @@ export const getDishDetail = async (_restaurantId, _dishId) => {
 
 export const createDish = async (dish, restaurantId) => {
 
-  const dbCollection = collection(db, `restaurants/${restaurantId}/dishes`)
+  const dbCollection = collection(db, `foodList/${restaurantId}/plates`)
 
   await addDoc(dbCollection, dish)
 

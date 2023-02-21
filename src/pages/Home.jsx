@@ -59,11 +59,11 @@ const Home = () => {
               Restaurants and cafes
             </p>
             <div className="filter-btns d-flex mb-4 w-100">
-              <button onClick={() => filterButtons("all")} className="filter-btn btn m-1">All</button>
-              <button onClick={() => filterButtons("burger")} className="filter-btn btn m-1">🍔 Burgir</button>
-              <button onClick={() => filterButtons("pizza")} className="filter-btn btn m-1">🍕 Pizza</button>
-              <button onClick={() => filterButtons("salad")} className="filter-btn btn m-1">🥗 Salad</button>
-              <button onClick={() => filterButtons("pasta")} className="filter-btn btn m-1">🍝 Pasta</button>
+              <button onClick={() => filterButtons("all")} className="filter-btn btn m-1">Todos</button>
+              <button onClick={() => filterButtons("burger")} className="filter-btn btn m-1">Hamburguesa</button>
+              <button onClick={() => filterButtons("pizza")} className="filter-btn btn m-1">Pizza</button>
+              <button onClick={() => filterButtons("salad")} className="filter-btn btn m-1">Ensalada</button>
+              <button onClick={() => filterButtons("pasta")} className="filter-btn btn m-1">Pasta</button>
             </div>
 
 

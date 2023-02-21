@@ -1,5 +1,5 @@
-import * as auth from "./auth";
+import * as auth from "./authenticationContext";
 import * as restaurantsContext from "./restaurantsContext"
-import * as dishesContext from "./dishesContext"
+import * as dishesContext from "./platesContext"
 
 export { auth, restaurantsContext, dishesContext }

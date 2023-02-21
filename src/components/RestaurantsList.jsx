@@ -20,7 +20,7 @@ const RestaurantsList = ({ list }) => {
                                 <div className="restaurant-info">
                                     <h5 className='restaurant-info-title mb-0'>{name}</h5>
                                     <p className='restaurant-info-stars mb-0'>{stars}</p>
-                                    <p className='restaurant-info-schedule mb-0 '>Work time: {schedule}</p>
+                                    <p className='restaurant-info-schedule mb-0 '>Horario: {schedule}</p>
                                 </div>
                             </div>
                         </Link>

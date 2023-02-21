@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router'
-import { auth as authAPI } from '../api'
+import { auth as authAPI } from '../services'
 import { auth } from '../context'
 
 

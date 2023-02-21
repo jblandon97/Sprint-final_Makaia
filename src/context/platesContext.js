@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { dishes, restaurants } from "../api";
+import { dishes, restaurants } from "../services";
 
 export const dishesContext = createContext()
 
